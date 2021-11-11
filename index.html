@@ -5,52 +5,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Insta Portfolio</title>
-    <style>
-     
-      <!--This is heading Tag -->
-      body {margin:0;}
-      
-      ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #333;
-        position: fixed;
-        top: 0;
-        width: 100%;
-      }
-      
-      li {
-        float: left;
-      }
-      
-      li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-      }
-      
-      li a:hover:not(.active) {
-        background-color: #111;
-      }
-      
-      .active {
-        background-color: grey;
-      }
-      <!--Style for Navigation bar ends here -->
-      </style>
+
+
 </head>
-<body>\
-  <ul>
-    <li><a class="active" href="#home">Home</a></li>
-    <li><a href="#news">Projects Undertaken</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#about">About</a></li>
-  </ul>
+<body>
+ <nav class="navbar">
+    <ul class="nav-list">
+      <div class="logo"><img src="images/insta.jpg" alt="logo"></div>
+      <li class="list"><a href="#home">home</a></li>
+      <li class="list"><a href="#project">project</a></li>
+      <li class="list"><a href="#services">services</a></li>
+      <li class="list"><a href="#contac">contact</a></li>
+
+    </ul>
+    <div class="rightnav">
+
+      <input type="text" name="search" id="search">
+      <button class="btn btn-sm">search</button>
+    </div>
+  </nav>
+  
+  
+  
   
     
 </body>
