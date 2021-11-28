@@ -1,57 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Insta Model | MyPortfolio.com</title>
     <link rel="stylesheet" href="css/style.css">
-    <title>Insta Portfolio</title>
-
-
+    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="css/phone.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
 </head>
+
 <body>
- <nav class="navbar">
-    <ul class="nav-list">
-      <div class="logo"><img src="images/insta.jpg" alt="logo"></div>
-      
-      <li class="list"><a href="#home">home</a></li>
-      <li class="list"><a href="#project">project</a></li>
-      <li class="list"><a href="#services">services</a></li>
-      <li class="list"><a href="#contac">contact</a></li>
-     
+    <nav id="navbar">
+        <div id="logo">
+            <img src="logo.png" alt="MyPortfolio.com">
+        </div>
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#services-container">Projects</a></li>
+            <li class="item"><a href="#client-section">Our Clients</a></li>
+            <li class="item"><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
 
-    </ul>
-    <div class="rightnav">
+    <section id="home">
+        <h1 class="h-primary">Welcome to MyPortfolio</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis dolorum numquam minus. </p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+       
+    </section>
 
-      <input type="text" name="search" id="search">
-      <button class="btn btn-sm">search</button>
-    </div>
-  </nav>
-  <section class="background firstSection"></section>
-  <div class="box-main">
-   <div class="firstHalf">
-     <p class="text-big">
-       asdfasdfasdfasdfas asdfasd fasd asdfsdf asdf adf sdf asdf d fadsf
-       sdf asdf d dfsdf
-        asd fasdsdfd
-         asdf 
-     </p>
-     <p class="text-small">
-      asdfasdfasdfasdfas asdfasd fasd asdfsdf asdf adf sdf asdf d fadsf
-      sdf asdf d dfsdf
-       asd fasdsdfd
-        asdf 
-    </p>
-    <div class="secondHalf"></div>
-     </div>
-  </div>
+    <section id="services-container">
+        <h1 class="h-primary center">My Projects</h1>
+        <div id="services">
+            <div class="box">
+                <img src="1.jpg" alt="">
+                <h2 class="h-secondary center">Bunjee Jumping</h2>
+                <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, culpa suscipit error
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et qui, repudiandae similique nam, recusandae quidem ab asperiores ex, aut fugit labore veritatis facere?
+                    sint delectus ab dolorum nam. Debitis facere, incidunt voluptates eos, mollitia voluptatem iste sunt
+                    voluptas beatae facilis labore, omnis sint quae eum.</p>
+            </div>
+            <div class="box">
+                <img src="2.jpg" alt="">
+                <h2 class="h-secondary center">Kayaking</h2>
+                <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, culpa suscipit error
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde laudantium a incidunt animi ad, ab dignissimos vero? Unde numquam odit repudiandae perferendis nisi.
 
-  </section>
-  
-  
-  
-  
-    
+                    sint delectus ab dolorum nam. Debitis facere, incidunt voluptates eos, mollitia voluptatem iste sunt
+                    voluptas beatae facilis labore, omnis sint quae eum.</p>
+            </div>
+            <div class="box">
+                <img src="3.jpg" alt="">
+                <h2 class="h-secondary center">Sky Diving</h2>
+                <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, culpa suscipit error
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus provident fugiat aliquam minima at explicabo. Earum eveniet quaerat, sunt molestias nesciunt quas! Quis.
+                    sint delectus ab dolorum nam. Debitis facere, incidunt voluptates eos, mollitia voluptatem iste sunt
+                    voluptas beatae facilis labore, omnis sint quae eum.</p>
+            </div>
+        </div>
+    </section>
+    <section id="client-section">
+        <h1 class="h-primary center">Our Clients</h1>
+        <div id="clients">
+            <div class="client-item">
+                <h2> Goa Vlogs </h2>
+            </div>
+            <div class="client-item">
+                <h2> Goa Vlogs </h2>
+            </div>
+          
+            <div class="client-item">
+                <h2> Goa Vlogs </h2>
+            </div>
+            <div class="client-item">
+                <h2> Goa Vlogs </h2>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email: </label>
+                    <input type="email" name="name" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number: </label>
+                    <input type="phone" name="name" id="phone" placeholder="Enter your phone">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message: </label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="center">
+            Copyright &copy; www.MyPortfolio.com. All rights reserved!
+        </div>
+    </footer>
 </body>
+
 </html>
